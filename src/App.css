@@ -105,3 +105,12 @@ p {
   margin: 0;
   font-size: 38px;
 }
+
+.Footer {
+  text-align: center;
+  font-weight: bold;
+  max-width: 500px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
