@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Header from "./Header";
 import Form from "./Form";
 import Main from "./Main";
+import Days from "./Days";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Header />
     <Form />
     <Main />
+    <Days />
   </React.StrictMode>
 );
 

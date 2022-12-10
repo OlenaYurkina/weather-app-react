@@ -1,8 +1,14 @@
 .App {
   text-align: center;
+  max-width: 500px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .Header {
+  max-width: 500px;
+  margin-left: 100px;
   padding: 0 0 10px 0;
   text-align: center;
   font-size: 22px;
@@ -19,11 +25,14 @@
   padding: 0 25px 0 25px;
 }
 .Form {
+  max-width: 500px;
+
+  margin-left: 100px;
   text-align: center;
   padding: 0;
   display: flex;
   justify-content: space-around;
-  padding: 0 10px;
+  padding: 0;
 }
 button {
   color: grey;
@@ -51,6 +60,9 @@ button {
 }
 
 .Main {
+  max-width: 500px;
+
+  margin-left: 100px;
   display: flex;
   padding: 0 10px;
   justify-content: space-around;
@@ -76,4 +88,20 @@ button {
 .ColWind {
   position: relative;
   top: 23px;
+}
+
+.Days {
+  max-width: 500px;
+
+  margin-left: 100px;
+  display: flex;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+p {
+  margin: 0;
+  font-size: 38px;
 }
